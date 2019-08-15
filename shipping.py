@@ -85,6 +85,9 @@ class RefrigeratorShippingContainer(ShippingContainer):
     def _calc_vol_ft(self):
         return super()._calc_vol_ft() - self.FRIDGE_VOL_FT
 
+    def print1(self):
+        print('something')
+
 
 class HeatedRefrigeratorShippingContainer(RefrigeratorShippingContainer):
     MIN_CELSIUS = -20
