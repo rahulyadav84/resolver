@@ -88,6 +88,8 @@ class RefrigeratorShippingContainer(ShippingContainer):
     def print1(self):
         print('something')
 
+    def print_shipping(self):
+        print('something')
 
 class HeatedRefrigeratorShippingContainer(RefrigeratorShippingContainer):
     MIN_CELSIUS = -20
