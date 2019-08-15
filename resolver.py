@@ -61,6 +61,9 @@ def add(num1,num2,num3):
     return num1+num2+num3
 
 
+def print1(self):
+        print('something')
+
 @CallCount
 def hello_world():
     print('before')
